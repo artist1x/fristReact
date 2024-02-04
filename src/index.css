@@ -43,7 +43,9 @@
   align-items: center;
   z-index: 1050;
 }
-
+.min-h{
+  min-height: calc(-119px + 100vh);
+}
 .lightbox-content {
   position: relative;
   max-width: 35%;
@@ -55,7 +57,9 @@
   max-height: 100%;
   display: block;
 }
-
+.wid{
+  width: 50%;
+}
 
 .m-86{
   margin-top: 86px;
@@ -86,4 +90,12 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+@media screen and (max-width: 768px){
+  .lightbox-content {
+    max-width: 100%;
+  }
+  .wid{
+    width: 100%;
+  }
 }

@@ -9,7 +9,7 @@ export default function Contact() {
   return (
     <>
       <div className="contact">
-        <div className='vh-100 m-115 text-sec bg-white'>
+        <div className='min-h m-115 text-sec bg-white'>
           <div className="all-cont">
             <div className="text-center">
               <h2 className='text-uppercase mb-3 fs-1 fw-bolder'>Contact Section</h2>
@@ -20,7 +20,7 @@ export default function Contact() {
               </div>
             </div>
             <form>
-              <div className="w-50 p-3 mx-auto mt-5" style={{width: '100%'}}>
+              <div className="wid p-3 mx-auto mt-5">
                 <label htmlFor="userName" className={`position-relative top-0 ${userName ? '' : 'top'} label`}>userName : </label>
                 <input
                   id="userName"
